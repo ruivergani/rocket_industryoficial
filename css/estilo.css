@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Viga');
+
+body{font-family: 'Roboto', arial, sans-serif;}
+
+p{
+	font-size: 1.2857em;
+	padding: 2.1428em 0 4.2857em;
+}
+
+.titulo2{
+	font-size: 2.8571em;
+	font-family: 'Viga';
+}
+
+/* START MENU */
+nav#menu{
+	height: 7.1428em;
+	background-color: rgba(0,0,0,0.8);
+	padding: 1.7857em 7.1428em;
+}
+
+div#logo a{
+	font-size: 2.1em;
+	color: #fff;
+	font-family:'Viga', arial;
+}
+
+div#menubar ul li a{
+	color: #fff;
+	font-size: 1.4em;
+}
+
+div#menubar ul li a:hover{
+	border-top: 0.1428em solid #fff;
+	border-bottom: 0.1428em solid #fff;
+	text-decoration: none;
+	padding-top: 0.7142em;
+	padding-bottom: 0.7142em;
+	transition: all 0.4s;
+}
+
+/* START SLIDESHOW */
+
+/* START RECURSOS */
+section#recursos{
+	padding-top: 7.1428em;
+}
+
+/* START EQUIPE */
+section#equipe{
+	padding-top: 7.1428em;
+	background-image: url(../images/work.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+/* START SERVICOS */
+section#servicos{
+	padding-top: 7.1428em;
+}
+
+section#servicos span.fa{
+	font-size: 3.5714em;
+	background-color: #27ae60;
+	color: #fff;
+	padding: 0.4285em;
+	border-radius: 0.3571em;
+}
+
+section#servicos span.fa:hover{
+	background-color: #005223;
+	transition: all 0.6s;
+}
+
+section#servicos h4{
+	font-size: 1.7857em;
+}
+
+/* START GALERIA */
+section#galeria{
+	background-image: url(../images/gallery.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	padding-top: 7.1428em;
+	color: #fff;
+}
+
+section#galeria a{
+	display: inline-block;
+	width: 18.5714em;
+	margin: 0.7142em;
+	border: 0.2142em solid #fff;
+	border-radius: 0.3571em;
+	overflow: hidden;
+}
+
+section#galeria a:hover{
+	transform: scale(1.2);
+	transition: all 0.5s;
+}
+
+section#galeria img{
+	width: 100%;
+}
+
+/* START OPINIAO */
+section#opiniao{
+	padding-top: 7.1428em;
+	padding-bottom: 7.1428em;
+	background-color: #2c3e50;
+	color: #fff;
+}
+
+section#opiniao .carousel-indicators li{
+	border-radius: 0;
+}
+
+/* START MAPA */
+iframe.googlemaps{
+	width: 100%;
+	height: 28.5714em;
+}
