@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Viga');
 
 body{font-family: 'Roboto', arial, sans-serif;}
+img{
+	width: 100%;
+}
 
 p{
 	font-size: 1.2857em;
