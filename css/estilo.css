@@ -5,6 +5,11 @@ img{
 	width: 100%;
 }
 
+.img-responsive{
+	margin: 0 auto !important;
+    width: 100% !important;
+}
+
 p{
 	font-size: 1.2857em;
 	padding: 2.1428em 0 4.2857em;
